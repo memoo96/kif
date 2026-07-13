@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="Keywords" content="KIF - more description" />
+    <meta name="description" content="KIF - more description" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KIF</title>
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/fullcalendar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/slick.min.css" />
+    <link rel="stylesheet" href="css/slick-theme.min.css" /> 
+    <link rel="stylesheet" href="css/lightgallery.css">
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Almarai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+
+        <div class="col-lg-3 p-0">
+            <a href="#" class="navbar-brand">
+                <img src="images/Logo.svg" alt="">
+            </a>
+            <i class="fa fa-search Search_Icon formobile" data-toggle="modal" data-target="#SearchModel"
+                aria-hidden="true"></i>
+        </div>
+
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="mx-2 close"><img src="images/cancel.svg" alt=""></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="col-lg-9">
+            <div id="navbarContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link active">الرئيسية</a></li>
+                    <li class="nav-item dropdown">
+                        <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="nav-link dropdown-toggle">عن الإتحاد <i class="fa fa-angle-down"
+                                aria-hidden="true"></i></a>
+
+                        <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+                            <li><a href="#" class="dropdown-item firstDrop">عن الإتحاد</a></li>
+                            <li><a href="#" class="dropdown-item">عن الإتحاد</a></li>
+                            <li><a href="#" class="dropdown-item">عن الإتحاد</a></li>
+                            <li><a href="#" class="dropdown-item lastDrop">عن الإتحاد</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="nav-link dropdown-toggle">الاخبار <i class="fa fa-angle-down"
+                                aria-hidden="true"></i></a>
+
+                        <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+                            <li><a href="#" class="dropdown-item firstDrop">الاخبار</a></li>
+                            <li><a href="#" class="dropdown-item">الاخبار</a></li>
+                            <li><a href="#" class="dropdown-item">الاخبار</a></li>
+                            <li><a href="#" class="dropdown-item lastDrop">الاخبار</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="nav-link dropdown-toggle">إصدارات <i class="fa fa-angle-down"
+                                aria-hidden="true"></i></a>
+
+                        <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+                            <li><a href="#" class="dropdown-item firstDrop">إصدارات</a></li>
+                            <li><a href="#" class="dropdown-item">إصدارات</a></li>
+                            <li><a href="#" class="dropdown-item">إصدارات</a></li>
+                            <li><a href="#" class="dropdown-item lastDrop">إصدارات</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">توعية تأمينية</a></li>
+                    <li class="nav-item dropdown">
+                        <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            class="nav-link dropdown-toggle">مؤتمرات <i class="fa fa-angle-down"
+                                aria-hidden="true"></i></a>
+
+                        <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+                            <li><a href="#" class="dropdown-item firstDrop">مؤتمرات</a></li>
+                            <li><a href="#" class="dropdown-item">مؤتمرات</a></li>
+                            <li><a href="#" class="dropdown-item">مؤتمرات</a></li>
+                            <li><a href="#" class="dropdown-item lastDrop">مؤتمرات</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">البرامج التدريبية</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">اتصل بنا</a></li>
+                    <li class="formobile nav-item">
+                        <a href="#" class="Arabic nav-link">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        
+
+    </nav>
+    <!-- End navbar -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                    <li class="breadcrumb-item active">المستخدم</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <section id="specialHeader">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-3 p-0">
+                    <a href="#" class="navbar-brand">
+                        <img src="images/Logo.svg" alt="">
+                    </a>
+                    <i class="fa fa-search Search_Icon formobile" data-toggle="modal" data-target="#SearchModel"
+                    aria-hidden="true"></i>
+                </div>
+                <div class="col-lg-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="search-box">
+                                <a href="#"><i class="fa fa-search"></i></a>
+                                <input type="text" class="form-control" placeholder="بحث...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="contactHead">
+                        <ul>
+                            <li>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <div class="mail">
+                                    kif.kw2006@gmail.com
+                                </div>
+                            </li>
+                            <li>
+                                <a href="tel:22462000">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <div class="phone">
+                                        22462000
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:12345678">
+                                    <i class="fa fa-fax" aria-hidden="true"></i>
+                                    <div class="map">
+                                        12345678
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="socialHead">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <section id="UserHome">
+        <div class="container">
+            <div class="MainPageTitle">
+                <h2>بيان الخسارة الكلية للسيارات</h2>
+                <img src="images/newsLogo.png" alt="">
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="myaccount_content">
+                        <div class="Links">
+                            <ul>
+                                <li><a class="active" href="#">الرئيسية</a></li>
+                                <li><a href="#">اضافة المزاد</a></li>
+                                <li><a href="#">إضافة سجل جديد</a></li>
+                                <li><a href="#">تغير كلمة المرور</a></li>
+                                <li><a href="#">تسجيل خروج</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="Form">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-12 mb-4">
+                                <select class="Select_filter">
+                                    <option data-display="كل الشركات">كل الشركات</option>
+                                    <option value="Company_1">شركة 1</option>
+                                    <option value="Company_2">شركة 2</option>
+                                    <option value="Company_3">شركة 3</option>
+                                    <option value="Company_4">شركة 4</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-4 col-12 mb-4">
+                                <select class="Select_filter">
+                                    <option data-display="جميع الماركات">جميع الماركات</option>
+                                    <option value="Brand_1">ماركة 1</option>
+                                    <option value="Brand_2">ماركة 2</option>
+                                    <option value="Brand_3">ماركة 3</option>
+                                    <option value="Brand_4">ماركة 4</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-4 col-12 mb-4">
+                                <input type="text" class="form-control" id="SearchNum" aria-describedby="SearchNum"
+                                placeholder="البحث حسب رقم الشاسيه">
+                            </div>
+                            <div class="col-sm-4 col-12 mb-4">
+                                <input type="text" class="form-control" onblur="(this.type='text')" onfocus="(this.type='date')" id="Date" aria-describedby="FromDate"
+                                placeholder="تاريخ">
+                            </div>
+                            <div class="col-sm-4 col-12 mb-4">
+                                <select class="Select_filter">
+                                    <option data-display="اختر السنة">اختر السنة</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-4 col-12 mb-4">
+                                <input type="text" class="form-control" id="SearchWords" aria-describedby="SearchWords"
+                                placeholder="البحث عن طريق الكلمات الرئيسية">
+                            </div>
+                        </div>
+                        <div class="searchBtn">
+                            <a href="#">بحث</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12">
+                    <div class="content">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-responsive-stack table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>مسلسل</th>
+                                                <th>الشركة</th>
+                                                <th>ماركة السيارة</th>
+                                                <th>الصنف</th>
+                                                <th>اللون</th>
+                                                <th>سنة الصنع</th>
+                                                <th>رقم الشاصي</th>
+                                                <th>رقم اللوحة</th>
+                                                <th>تاريخ الحادث</th>
+                                                <th>الحالة</th>
+                                                <th>تاريخ المزاد</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span>11702</span></td>
+                                                <td><span>شركة الكويت للتأمين</span></td>
+                                                <td><span>لكزيس</span></td>
+                                                <td><span>RX350</span></td>
+                                                <td><span>اسود</span></td>
+                                                <td><span>2023</span></td>
+                                                <td><span>2006803</span></td>
+                                                <td><span>70/92192</span></td>
+                                                <td><span>11/01/2024</span></td>
+                                                <td><span>تحويل</span></td>
+                                                <td><span>05/02/2024</span></td>
+                                                <td><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>11702</span></td>
+                                                <td><span>شركة الكويت للتأمين</span></td>
+                                                <td><span>لكزيس</span></td>
+                                                <td><span>RX350</span></td>
+                                                <td><span>اسود</span></td>
+                                                <td><span>2023</span></td>
+                                                <td><span>2006803</span></td>
+                                                <td><span>70/92192</span></td>
+                                                <td><span>11/01/2024</span></td>
+                                                <td><span>تحويل</span></td>
+                                                <td><span>05/02/2024</span></td>
+                                                <td><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>11702</span></td>
+                                                <td><span>شركة الكويت للتأمين</span></td>
+                                                <td><span>لكزيس</span></td>
+                                                <td><span>RX350</span></td>
+                                                <td><span>اسود</span></td>
+                                                <td><span>2023</span></td>
+                                                <td><span>2006803</span></td>
+                                                <td><span>70/92192</span></td>
+                                                <td><span>11/01/2024</span></td>
+                                                <td><span>تحويل</span></td>
+                                                <td><span>05/02/2024</span></td>
+                                                <td><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>11702</span></td>
+                                                <td><span>شركة الكويت للتأمين</span></td>
+                                                <td><span>لكزيس</span></td>
+                                                <td><span>RX350</span></td>
+                                                <td><span>اسود</span></td>
+                                                <td><span>2023</span></td>
+                                                <td><span>2006803</span></td>
+                                                <td><span>70/92192</span></td>
+                                                <td><span>11/01/2024</span></td>
+                                                <td><span>تحويل</span></td>
+                                                <td><span>05/02/2024</span></td>
+                                                <td><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>11702</span></td>
+                                                <td><span>شركة الكويت للتأمين</span></td>
+                                                <td><span>لكزيس</span></td>
+                                                <td><span>RX350</span></td>
+                                                <td><span>اسود</span></td>
+                                                <td><span>2023</span></td>
+                                                <td><span>2006803</span></td>
+                                                <td><span>70/92192</span></td>
+                                                <td><span>11/01/2024</span></td>
+                                                <td><span>تحويل</span></td>
+                                                <td><span>05/02/2024</span></td>
+                                                <td><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>11702</span></td>
+                                                <td><span>شركة الكويت للتأمين</span></td>
+                                                <td><span>لكزيس</span></td>
+                                                <td><span>RX350</span></td>
+                                                <td><span>اسود</span></td>
+                                                <td><span>2023</span></td>
+                                                <td><span>2006803</span></td>
+                                                <td><span>70/92192</span></td>
+                                                <td><span>11/01/2024</span></td>
+                                                <td><span>تحويل</span></td>
+                                                <td><span>05/02/2024</span></td>
+                                                <td><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span>11702</span></td>
+                                                <td><span>شركة الكويت للتأمين</span></td>
+                                                <td><span>لكزيس</span></td>
+                                                <td><span>RX350</span></td>
+                                                <td><span>اسود</span></td>
+                                                <td><span>2023</span></td>
+                                                <td><span>2006803</span></td>
+                                                <td><span>70/92192</span></td>
+                                                <td><span>11/01/2024</span></td>
+                                                <td><span>تحويل</span></td>
+                                                <td><span>05/02/2024</span></td>
+                                                <td><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Subscribe">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-12">
+                    <ul>
+                        <li><h5>تابعنا</h5></li>
+                        <li><span></span></li>
+                        <li><p>اشترك ليصلك كل ماهو جديد</p></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-12">
+                    <div class="starImg">
+                        <img src="images/newsLogo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div class="newsteller">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="email-box">
+                                    <input type="text" class="form-control subscribeInp"
+                                        placeholder="أدخل عنوان بريدك الإلكتروني هنا...">
+                                    <div class="subscribeButton">
+                                        <button class="btn">اشترك</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="social">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footerStar">
+                        <img src="images/footerStar.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footerLinks">
+                        <ul>
+                            <li><a href="#">الرئيسية</a></li>
+                            <li><a href="#">عن الإتحاد</a></li>
+                            <li><a href="#">الاخبار</a></li>
+                            <li><a href="#">إصدارات</a></li>
+                            <li><a href="#">توعية تأمينية</a></li>
+                            <li><a href="#">مؤتمرات</a></li>
+                            <li><a href="#">البرامج التدريبية</a></li>
+                            <li><a href="#">اتصل بنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-12 p-0">
+                    <div class="language">
+                        <p>جميع الحقوق محفوظة للاتحاد الكويتي للتأمين  © 2024</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 p-0">
+                    <div class="copyright">
+                        <p>تصميم و تطوير <a href="#"><img src="images/hardtask.png" alt=""></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Start Scroll To Top  -->
+    <div class="scroll_top">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
+    <!-- End Scroll To Top -->
+
+
+    <div class="modal fade" id="SearchModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content SearchModelContent">
+                <form action="">
+                    <div class="search_box_popup">
+                        <input class="search_input" type="search" placeholder="بحث..." />
+                        <input class="search_btn" type="submit" value="بحث" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="popUpEvent">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- header -->
+                <div class="modal-header">
+
+                    <h3 class="modal-title">تفاصيل الحدث</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- body -->
+                <div class="modal-body">
+                    <div role="form">
+                        <div class="form-group">
+                            <input name="ctl00$txtEventTitle" type="text" id="txtEventTitle" class="form-control " />
+                            <textarea name="ctl00$txtEventDescription" rows="3" cols="20" id="txtEventDescription"
+                                class="form-control "></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/fullcalendar.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.simplePagination.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/picturefill.min.js"></script>
+    <script src="js/lightgallery-all.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+
+$('#lightgallery').lightGallery({
+            pager: true,
+            thumbnail: true
+        });
+
+var items = $(".ImageItem");
+        var numItems = items.length;
+        var perPage = 12;
+
+        items.slice(perPage).hide();
+
+        if (numItems > perPage) {
+            $('#pagination-container').pagination({
+                items: numItems,
+                itemsOnPage: perPage,
+                prevText: "&laquo;",
+                nextText: "&raquo;",
+                onPageClick: function (pageNumber) {
+                    var showFrom = perPage * (pageNumber - 1);
+                    var showTo = showFrom + perPage;
+                    items.hide().slice(showFrom, showTo).show();
+                }
+            });
+        }
+
+        $(document).ready(function(){
+            $('.My-Slider').slick({
+                rtl: $('body').css('direction') == 'rtl',
+                arrows:true,
+                prevArrow: false,
+                nextArrow:false,
+                speed: 500,
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                infinite: true,
+                adaptiveHeight: true
+            });
+        });
+
+
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            rtl: $('body').css('direction') == 'rtl',
+            nav: true,
+            autoplay: true,
+            navText: [
+                '<i class="fa fa-angle-left"></i>',
+                '<i class="fa fa-angle-right"></i>'
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                750: {
+                    items: 4
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        });
+
+
+        
+
+        if ($.isFunction('owlCarousel')) {
+            $(".carousel").owlCarousel();
+        }
+
+
+        $('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                //right: 'month,agendaWeek,agendaDay,listWeek'
+            },
+            defaultDate: new Date(), //'2018-03-12',
+            navLinks: true, // can click day/week names to navigate views
+            editable: true,
+            eventLimit: true, // allow "more" link when too many events
+            events: [{ id: 1, start: new Date('2/5/2024'), end: new Date('2/6/2024'), title: 'مناسبة', Description: 'هنا تكتب تفاصيل المناسبة...' }],
+            eventClick: function (event, jsEvent, view) {
+                $("#txtEventTitle").val(event.title);
+                $("#txtEventDescription").val(event.Description);
+                $("#popUpEvent").modal();
+            }
+        });
+
+    </script>
+</body>
+
+</html>
